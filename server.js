@@ -3,7 +3,7 @@ const app = express();
 
 // Định nghĩa route handler cho đường dẫn gốc
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Đây là web của Quân <br> Next :  access Database - demo crud');
 });
 
 app.listen(3000, () => {
